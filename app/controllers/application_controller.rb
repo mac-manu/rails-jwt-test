@@ -13,7 +13,7 @@ class ApplicationController < ActionController::API
         if user 
             return user
         else
-            render json: { message: "invalid users "}, status: :unauthorized
+            render json: { message: "invalid user "}, status: :unauthorized
         end
     end
 

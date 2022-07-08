@@ -1,6 +1,6 @@
 class TodosController < ApplicationController
     # auth defined in app conroler 
-    before_action :authenticatio
+    before_action :authentication
 
     #get /todos
     def index
