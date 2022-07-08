@@ -1,24 +1,11 @@
-# README
+# Login request 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+curl -X POST <http://localhost:3000/login> -H 'Content-Type: application/json' -d '{"login":"manu@mac-manu.com","password":"my_password"}'
 
-Things you may want to cover:
+response ko
 
-* Ruby version
+{"message":"invalid users "}%
 
-* System dependencies
+response ok 
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
